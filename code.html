@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latitude and Longitude Generator</title>
+</head>
+<body>
+    <label for="minLat">Minimum Latitude:</label>
+    <input type="number" id="minLat" value="-90">
+    <br>
+    <label for="maxLat">Maximum Latitude:</label>
+    <input type="number" id="maxLat" value="90">
+    <br>
+    <label for="minLon">Minimum Longitude:</label>
+    <input type="number" id="minLon" value="-180">
+    <br>
+    <label for="maxLon">Maximum Longitude:</label>
+    <input type="number" id="maxLon" value="180">
+    <br>
+    <button onclick="generateCoords()">Generate Coordinates</button>
+    <br>
+    <label for="lat">Latitude:</label>
+    <input type="text" id="lat" readonly>
+    <br>
+    <label for="lon">Longitude:</label>
+    <input type="text" id="lon" readonly>
+    <script src="script.js"></script>
+</body>
+</html>
